@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app component check button handler check by snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <Input
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      value="it is text"
+    />
+    <button
+      className="testButton"
+      onClick={[Function]}
+    >
+      Click me!
+    </button>
+    <Post
+      text="post"
+    />
+    <Info />
+  </header>
+</div>
+`;
+
+exports[`app component should render 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <Input
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      value=""
+    />
+    <button
+      className="testButton"
+      onClick={[Function]}
+    >
+      Click me!
+    </button>
+    <Post
+      text="post"
+    />
+    <Info />
+  </header>
+</div>
+`;
